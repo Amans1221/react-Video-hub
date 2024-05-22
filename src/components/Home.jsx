@@ -62,26 +62,26 @@ const MyCarousel = () => (
         showThumbs={false}>
 
         <Box w={'full'} h={'100vh'}>
-            <Image src={img1} />
+            <Image src={img1} height={'full'} w={'full'} objectFit={'cover'} />
             <Heading bgColor={"blackAlpha.300"} color={'white'}
                 {...headingOption}>
                 Watch the Future
             </Heading>
         </Box>
         <Box w={'full'} h={'100vh'}>
-            <Image src={img2} />
+            <Image src={img2} height={'full'} w={'full'} objectFit={'cover'}  />
             <Heading bgColor={"whiteAlpha.300"} color={'black'} {...headingOption}>
                 Future is Gaming
             </Heading>
         </Box>
         <Box w={'full'} h={'100vh'}>
-            <Image src={img3} />
+            <Image src={img3} height={'full'} w={'full'} objectFit={'cover'}  />
             <Heading bgColor={"blackAlpha.300"} color={'white'} {...headingOption}>
                 Night life is Cool
             </Heading>
         </Box>
         <Box w={'full'} h={'100vh'}>
-            <Image src={img4} />
+            <Image src={img4} height={'full'} w={'full'} objectFit={'cover'}  />
             <Heading bgColor={"whiteAlpha.300"} color={'black'}{...headingOption}>
                 Shadow Gamer
             </Heading>
